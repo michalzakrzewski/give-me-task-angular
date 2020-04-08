@@ -1,0 +1,21 @@
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Nickname</th>
+          <th scope="col">First name</th>
+          <th scope="col">Last name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{user.nickName}}</td>
+          <td>{{user.firstName}}</td>
+          <td>{{user.lastName}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
